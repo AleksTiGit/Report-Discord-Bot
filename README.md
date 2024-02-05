@@ -1,13 +1,9 @@
 ## REPORT-DISCORD-BOT ##
-This is a bot for sending reports. When sending the ```/report``` command, you must provide a link to the offender's message.
-Made in Python with the disnake library
-## FOR DEVELOPERS: ##
-Instead of ```GAME``` you insert an activity (what the bot will play; this is indicated in the bot’s profile);
+This is a bot for sending reports. Made in Python with the disnake library.
+[ADD](https://discord.com/api/oauth2/authorize?client_id=1186355477295157468&permissions=2064000732230&scope=applications.commands%20bot)
 
-Instead of ```ROLE_ID``` you insert the Id of the role that needs to be pinged when you sent the report;
+## For users: ##
+To send a report, you should use the command ```/report```. In the ```link``` parameter you insert a link to the offender’s message.
 
-Instead of ```CHANNEL_ID``` you insert the ID of the channel to which information about reports will be sent;
-
-Instead of ```TOKEN``` you insert your bot token;
-
-If you want to change the colors in embed messages, then replace the RGB code in ```disnake.Color.from_rgb(rgb code)```.
+## For server administrators: ##
+To configure the bot you will need to use the command ```/settings```. This command can only be used by the server owner. In the ```ping_id``` parameter you specify the role that should be pinged when there is a report; and in the ```channel_id``` parameter you specify the channel to which report messages will be sent.
