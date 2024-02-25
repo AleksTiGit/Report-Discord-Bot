@@ -42,4 +42,4 @@ async def on_slash_command_error(inter: disnake.ApplicationCommandInteraction, e
 
 bot.load_extensions("cogs")
 create()
-bot.run('MTE4NjM1NTQ3NzI5NTE1NzQ2OA.G1HB3N.ckQzSEt2kvCh373qzmGLcEikeVAwKv2sCNp0C8')
+bot.run('token')
